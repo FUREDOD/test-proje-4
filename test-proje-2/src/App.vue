@@ -9,15 +9,6 @@
       </button>
     </nav>
     <router-view />
-    <div class="home">
-      <img alt="Vue logo" src="/assets/DefineX.jpeg" />
-      <HelloWorld msg="test proje" />
-      <AboutView />
-      <HomeView />
-      <Login />
-      <UserRegistration />
-      <AsyncUserDashboard />
-    </div>
   </div>
 </template>
 

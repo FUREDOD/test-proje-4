@@ -5,15 +5,6 @@
     <input type="password" placeholder="Şifre" v-model="password" />
     <button @click="login">Connection</button>
   </div>
-  <div class="register">
-    <h3>sign Up</h3>
-    <input type="email" placeholder="Email" v-model="email" />
-    <input type="password" placeholder="Şifre" v-model="password" />
-    <button @click="register">Connection</button>
-    <p>
-      <router-link :to="{ name: 'login' }">login</router-link>
-    </p>
-  </div>
 </template>
 
 <script>
@@ -27,7 +18,6 @@ export default {
   },
   methods: {
     login() {},
-    register() {},
   },
 };
 </script>
