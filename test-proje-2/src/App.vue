@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
+//import HelloWorld from "@/components/HelloWorld.vue";
 import AboutView from "./views/AboutView.vue";
 import HomeView from "./views/HomeView.vue";
 import Login from "./views/login.vue";
@@ -29,7 +29,7 @@ const AsyncUserDashboard = defineAsyncComponent(() =>
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    //HelloWorld,
     AboutView,
     HomeView,
     Login,
