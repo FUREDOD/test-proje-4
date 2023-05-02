@@ -96,7 +96,7 @@ export default {
   name: "HelloWorld",
   created() {
     // eslint-disable-next-line no-debugger
-    debugger;
+    //debugger;
     this.$toast.success("Order placed.");
   },
   props: {
