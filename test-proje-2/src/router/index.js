@@ -6,7 +6,6 @@ const routes = [
     path: "/user-dashboard",
     name: "UserDashboard",
     component: UserDashboard,
-    meta: { requiresAuth: true },
   },
   {
     path: "/",

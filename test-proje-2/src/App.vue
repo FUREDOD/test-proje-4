@@ -14,27 +14,13 @@
 
 <script>
 //import HelloWorld from "@/components/HelloWorld.vue";
-import AboutView from "./views/AboutView.vue";
-import HomeView from "./views/HomeView.vue";
-import Login from "./views/login.vue";
-import UserRegistration from "./views/UserRegistration.vue";
 import { useStore } from "vuex";
-import { defineAsyncComponent } from "vue";
 import { useRoute, useRouter } from "vue-router";
-
-const AsyncUserDashboard = defineAsyncComponent(() =>
-  import("./views/UserDashboard.vue")
-);
 
 export default {
   name: "App",
   components: {
     //HelloWorld,
-    AboutView,
-    HomeView,
-    Login,
-    UserRegistration,
-    AsyncUserDashboard,
   },
   setup() {
     const store = useStore();

@@ -26,4 +26,4 @@ export default new VueRouter({
       component: Register,
     },
   ],
-}); 
+});
